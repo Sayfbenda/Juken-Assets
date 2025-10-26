@@ -1,0 +1,85 @@
+# vault configurations
+[meta]
+    # friendly name
+    title =                 "My Pack"
+    # contributors
+    author =                "Incredible Asset Creator"
+    # version
+    version =               "0.1.0"
+
+# asset pack configurations
+[asset_pack]
+    # asset packs requirements
+    assets_requirements = [
+                            
+    ]
+
+# unreal engine configurations
+[unreal]
+    # unreal engine folder - the exact name of the root folder inside Content/ or Plugin/ used in Unreal
+    unreal_folder =         "effect1"
+    # unreal engine version - unreal version this asset pack was compiled on
+    unreal_version =        "5.5.4"
+    # whether this asset pack was created as a plugin content
+    is_plugin_content =     false
+
+# assets files
+[assets]
+    # maps
+    [assets.maps]
+        # MyMap = "MyFolder/MyAwesomeMap"
+        # ...
+
+    # static meshes
+    [assets.static_meshes]
+        Azure_Shard_0409030150_texture = "Blender/Azure_Shard_0409030150_texture_fbx/Azure_Shard_0409030150_texture"
+        BezierCurve = "Blender/BezierCurve"
+        Frozen_Elegance_0409031735_generate = "Blender/Frozen_Elegance_0409031735_generate"
+        Golden_Serpent_Limbs_0412001333_generate = "Blender/Golden_Serpent_Limbs_0412001333_generate"
+        SM_GroundIce01 = "Blender/GAP_IceAttack_Elements/SM_GroundIce01"
+        SM_Spike01 = "Blender/GAP_IceAttack_Elements/SM_Spike01"
+        Spike = "Blender/Spike"
+        Tete_dragon = "Blender/Tete_dragon"
+        Untitled = "Blender/GAP_IceAttack_Elements/Untitled"
+        tessssst = "Aokiji_Fruit/dragonglace/tessssst"
+        tessssst1 = "Blender/GAP_IceAttack_Elements/tessssst"
+
+    # skeletal meshes
+    [assets.skeletal_meshes]
+        # SK_Better_Man = "Characters/SK_BetterMan_03"
+        # ...
+
+    # sounds
+    [assets.sounds]
+        # A_Awesome_Music = "Sounds/A_Awesome_Music"
+        # ...
+
+    # animations
+    [assets.animations]
+        # A_Character_Jump = "Animations/A_Character_Jump"
+        # ...
+
+    # particles
+    [assets.particles]
+        NE_EffectTrour = "GojoSpell/NE_EffectTrour"
+        NS_AttackWave = "Aokiji_Fruit/PiqueGlace/NS_AttackWave"
+        NS_DragonGlace = "Aokiji_Fruit/dragonglace/NS_DragonGlace"
+        NS_Prison = "Aokiji_Fruit/PrisonGlaceRangB/NS_Prison"
+        NS_PrisonGlace = "Aokiji_Fruit/PrisonGlaceRangB/NS_PrisonGlace"
+        NS_Zone = "Aokiji_Fruit/ZoneGlaceRangC/NS_Zone"
+        NewNiagaraSystem = "NewNiagaraSystem"
+
+    # materials
+    [assets.materials]
+        # M_Red_Textured = "Materials/M_Red_Textured"
+        # ...
+
+    # blueprints
+    [assets.blueprints]
+        # BP_AmazingStuff = "Blueprints/BP_AmazingStuff"
+        # ...
+
+    # other assets (for not yet categorized ones)
+    [assets.others]
+        # Some_Stuff = "Others/Some_Stuff"
+        # ...
